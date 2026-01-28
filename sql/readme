@@ -1,0 +1,28 @@
+# SQL – Coffee Sales Analytics (Single Script)
+
+This folder contains a single SQL script that includes all analytical queries used for reporting and Power BI.
+
+## File
+- `coffee_sales_analysis.sql` – master script containing all queries
+
+## Data Source
+- Platform: Microsoft Fabric Lakehouse (SQL Analytics Endpoint)
+- Table: `coffee_sales_clean`
+
+## What the Script Covers
+The SQL script includes queries for:
+- Revenue and order volume by coffee type
+- Revenue and order volume by time of day
+- Peak sales hours (hour-of-day analysis)
+- Average ticket value calculations
+
+## Metrics Used
+- Total Revenue: sum of transaction values (`money`)
+- Order Count: number of transactions
+- Average Ticket: average revenue per transaction
+
+## How to Run
+1. Open Microsoft Fabric → Lakehouse → SQL Analytics Endpoint
+2. Open `coffee_sales_analysis.sql`
+3. Run each section (queries are grouped with comments/headings)
+4. Use results to validate insights and build Power BI visuals
