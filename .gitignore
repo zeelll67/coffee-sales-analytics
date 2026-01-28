@@ -1,0 +1,17 @@
+# Power BI temporary / backup files
+*.pbix~
+*.pbit~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
